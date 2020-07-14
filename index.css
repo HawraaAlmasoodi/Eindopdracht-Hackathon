@@ -1,0 +1,241 @@
+
+.sub {
+  text-align: center;
+  color: burlywood;
+
+  }
+  
+.nav-bar {
+  list-style-type: none;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  margin-right: 10px;
+  text-align: center;
+  
+  }
+
+  li.nav {
+   display: inline;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 10px; 
+   
+  }
+  
+  li a {
+    color: black;
+  }
+
+  #img-header {
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+  
+  }
+
+  .text-second-container {
+    position: absolute;
+    text-align: center;
+    background-color: transparent;
+    color: cornsilk;
+    width: 150px;
+    top: 160px;
+    left: 20px; 
+  } 
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  
+  }
+
+.section2 {
+ 
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  
+  }
+
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+    
+  }
+
+
+.intro {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+    
+ }
+
+.title1 {
+  line-height: 24px;
+  margin-right: 35px;
+  margin-left: 10px;
+  width: 210px;
+  color: brown;
+    
+  }
+
+.title2 {
+  line-height: 24px;
+  margin-right: 77px;
+  margin-left: 10px;
+  color: brown;
+     
+  }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+div.item { 
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    text-align: center;
+
+  }
+  
+  .capition {
+    
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightcyan;
+   
+  }
+
+footer {
+  padding-top: 20px;
+  background-color: lightblue;
+  color: black;
+  height: 330px;
+  width: 100%;
+ 
+  }  
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 
+  "Abonneer Activiteiten" ;
+  font-family: sans-serif;
+  
+
+  } 
+
+input {
+  height: 20px;
+  width: 180px;
+}
+
+.extrainfo1{
+  justify-self: stretch;
+  grid-area: Abonneer;
+
+  }
+
+ 
+.extrainfo2 {
+  justify-self: center;
+  grid-area: Activiteiten;
+  
+  }
+
+.footerlist {
+  margin: 0;
+   
+  }
+
+ @media (min-width: 1024px) {
+
+  body {
+      background-color: white;
+      color: black;
+
+  } 
+  
+  .nav-bar {
+    height: 50px;
+  }
+
+  .intro {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+#img-header {
+    height: 600px;
+    width: 100%;
+  
+  }
+
+  .text-second-container {
+    position: absolute;
+    text-align: center;
+    background-color:transparent;
+    color: cornsilk;
+    width: 350px;
+    top: 233px;
+    left: 50px; 
+     
+  }
+
+.title1 {
+  line-height: 24px;
+  margin-right: 43px;
+  margin-left: 10px;
+  color: brown;
+  width: 220px;
+    
+  }
+
+.title2 {
+  line-height: 24px;
+  margin-right: 100px;
+  margin-left: 10px;
+  color: brown;
+  }
+
+h3 {
+  width: 400px;
+
+  }
+
+footer {
+  width: 100%;
+  
+  }
+
+input {
+    height: 20px;
+    width: 270px;
+  }
+
+.extrainfo1, .extrainfo2 {
+  justify-self: start;
+  
+  }
+
+}
+ 
